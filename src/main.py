@@ -2,9 +2,9 @@ from textnode import TextNode, TextType
 
 
 def main():
-    node = TextNode("This is some anchor text", TextType.LINKS, "https://www.boot.dev")
+    node = TextNode("This is text with a `code block` word", TextType.TEXT)
 
-    print(node)
+    print(new_nodes)
   
 if __name__ == "__main__":
     main()
